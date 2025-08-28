@@ -1,122 +1,41 @@
-import 'package:flutter/material.dart';
+// Q1: Create a simple Flutter app using MaterialApp and Scaffold.
+// - Add an AppBar with the title "Basic Structure App".
+// - Inside the body, place a Center widget with a Text widget that says "Hello from Scaffold!".
 
-void main() {
-  runApp(const MyApp());
-}
+// Q2: Practice AppBar widget.
+// - Create a Scaffold with an AppBar.
+// - Set the AppBar title to "AppBar Example" and center it.
+// - Add an IconButton in the actions (icon: Icons.search).
+// - Inside the body, display a Text widget "AppBar in Action" centered.
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+// Q3: Practice Container widget.
+// - Create a Scaffold with an AppBar titled "Container Example".
+// - Inside the body, place a Container:
+//     - Width: 200, Height: 100
+//     - Background color: Blue
+//     - Center a Text widget inside saying "Inside Container" with white color.
 
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a purple toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
-        //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
-        //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
-}
+// Q4: Practice Column widget.
+// - Create a Scaffold with an AppBar titled "Column Example".
+// - Inside the body, place a Column with mainAxisAlignment set to center.
+// - Add three Text widgets as children: "Item 1", "Item 2", "Item 3".
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
+// Q5: Practice Row widget.
+// - Create a Scaffold with an AppBar titled "Row Example".
+// - Inside the body, place a Row with mainAxisAlignment set to spaceEvenly.
+// - Add three Icons as children:
+//     - Icons.star (yellow)
+//     - Icons.favorite (red)
+//     - Icons.thumb_up (blue)
 
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
+// Q6: Practice Expanded and Flexible widgets.
+// - Create a Scaffold with an AppBar titled "Expanded & Flexible Example".
+// - Inside the body, place a Column with three children:
+//     1. Expanded: Container with red background, centered Text "Expanded 1"
+//     2. Flexible: Container with green background, flex: 2, centered Text "Flexible"
+//     3. Expanded: Container with blue background, centered Text "Expanded 2"
 
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
-
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
-    return Scaffold(
-      appBar: AppBar(
-        // TRY THIS: Try changing the color here to a specific color (to
-        // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
-        // change color while the other colors stay the same.
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
-      ),
-      body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: Column(
-          // Column is also a layout widget. It takes a list of children and
-          // arranges them vertically. By default, it sizes itself to fit its
-          // children horizontally, and tries to be as tall as its parent.
-          //
-          // Column has various properties to control how it sizes itself and
-          // how it positions its children. Here we use mainAxisAlignment to
-          // center the children vertically; the main axis here is the vertical
-          // axis because Columns are vertical (the cross axis would be
-          // horizontal).
-          //
-          // TRY THIS: Invoke "debug painting" (choose the "Toggle Debug Paint"
-          // action in the IDE, or press "p" in the console), to see the
-          // wireframe for each widget.
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text('You have pushed the button this many times:'),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-          ],
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
-    );
-  }
-}
+// Step 7: Practice switching widgets in main.dart
+// - Import the widget you want to test (ScaffoldExample, AppBarExample, etc.).
+// - Replace the home property in MaterialApp with the widget you want to practice.
+// - Run the app and check the layout and behavior of the selected widget.
