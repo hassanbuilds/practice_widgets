@@ -9,6 +9,12 @@ class ScaffoldExample extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return;
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(title: const Text('Basic structure app')),
+        body: const Center(child: Text('Hello form scaffold')),
+      ),
+    );
   }
 }
