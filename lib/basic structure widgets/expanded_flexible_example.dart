@@ -1,6 +1,52 @@
-// Q6: Practice Expanded and Flexible widgets.
-// - Create a Scaffold with an AppBar titled "Expanded & Flexible Example".
-// - Inside the body, place a Column with three children:
-//     1. Expanded: Container with red background, centered Text "Expanded 1"
-//     2. Flexible: Container with green background, flex: 2, centered Text "Flexible"
-//     3. Expanded: Container with blue background, centered Text "Expanded 2"
+import 'package:flutter/material.dart';
+
+class ExpandedFlexibleExample extends StatelessWidget {
+  const ExpandedFlexibleExample({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(title: const Text("Expanded & Flexible Example")),
+        body: Column(
+          children: [
+            Expanded(
+              child: Container(
+                color: Colors.red,
+                alignment: Alignment.center,
+                child: const Text(
+                  "Expanded 1",
+                  style: TextStyle(color: Colors.white, fontSize: 18),
+                ),
+              ),
+            ),
+            Flexible(
+              flex: 2,
+              child: Container(
+                color: Colors.green,
+                alignment: Alignment.center,
+                child: const Text(
+                  "Flexible",
+                  style: TextStyle(color: Colors.white, fontSize: 18),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Container(
+                color: Colors.blue,
+                alignment: Alignment.center,
+                child: const Text(
+                  "Expanded 2",
+                  style: TextStyle(color: Colors.white, fontSize: 18),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+void main() => runApp(const ExpandedFlexibleExample());
