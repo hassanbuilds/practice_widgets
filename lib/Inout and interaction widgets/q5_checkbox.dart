@@ -3,8 +3,6 @@
 // - CheckboxListTile with label: "I agree to the Terms & Conditions"
 // - Print state (checked/unchecked) in console
 
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 
 class CheckboxApp extends StatefulWidget {
