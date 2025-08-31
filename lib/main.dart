@@ -9,7 +9,7 @@
 // - ElevatedButton: "Register" (prints form data in console)
 // - TextButton: "Already have an account? Login"
 // - OutlinedButton: "Clear Form"
-// - GestureDetector: Wrap a heart ❤️ icon – double-tap it to toggle like/unlike.
+// - GestureDetector: Wrap a heart  icon – double-tap it to toggle like/unlike.
 
 import 'package:flutter/material.dart';
 
