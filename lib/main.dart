@@ -57,7 +57,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
         !_agreeTerms) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          content: Text("⚠️ Please complete all fields and agree to terms"),
+          content: Text(" Please complete all fields and agree to terms"),
         ),
       );
       return;
