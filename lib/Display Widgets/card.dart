@@ -27,6 +27,8 @@ class CradExample extends StatelessWidget {
             ),
 
             Card(
+              elevation: 4, // Shadow
+              margin: EdgeInsets.all(16), // Space around
               child: ListTile(
                 leading: Icon(Icons.email),
                 title: Text('Email'),
@@ -35,6 +37,8 @@ class CradExample extends StatelessWidget {
             ),
 
             Card(
+              elevation: 4,
+              margin: EdgeInsets.all(16),
               child: ListTile(
                 leading: Icon(Icons.phone),
                 title: Text('Phone'),
@@ -43,6 +47,8 @@ class CradExample extends StatelessWidget {
             ),
 
             Card(
+              elevation: 4, // Shadow
+              margin: EdgeInsets.all(16), // Space around
               child: ListTile(
                 leading: Icon(Icons.location_on),
                 title: Text('Location'),
@@ -50,6 +56,8 @@ class CradExample extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 4,
+              margin: EdgeInsets.all(16),
               child: ListTile(
                 leading: Icon(Icons.work),
                 title: Text('Flutter Developer'),
