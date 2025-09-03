@@ -1,5 +1,4 @@
 // Q2: Using Colors
-// Name: colors_example.dart
 // Requirements:
 // - Create a Scaffold with background color
 // - Add a Container with a different color
