@@ -1,6 +1,18 @@
 // Q5: Padding Example
-// Name: padding_example.dart
 // Requirements:
 // - Create a Container with padding around its child
 // - Inside the Container, add a Text widget
 // - Show how padding changes spacing inside the box
+
+import 'package:flutter/material.dart';
+
+class PaddingExample extends StatelessWidget {
+  const PaddingExample({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(appBar: AppBar(title: Text('Padding Example'))),
+    );
+  }
+}
