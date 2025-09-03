@@ -4,8 +4,6 @@
 // - Add background color, border, and borderRadius
 // - Place a Text widget inside
 
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 
 class BoxDecorationExample extends StatelessWidget {
