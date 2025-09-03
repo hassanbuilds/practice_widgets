@@ -24,6 +24,7 @@ class CounterApp extends StatelessWidget {
 }
 
 // ----------------- Counter Screen -----------------
+
 class CounterScreen extends StatefulWidget {
   const CounterScreen({super.key});
 
