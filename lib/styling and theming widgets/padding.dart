@@ -12,7 +12,17 @@ class PaddingExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(appBar: AppBar(title: Text('Padding Example'))),
+      home: Scaffold(
+        appBar: AppBar(title: Text('Padding Example')),
+        body: Container(
+          color: Colors.black,
+          padding: EdgeInsets.all(25),
+          child: Text(
+            'Hey buddy where are you from??',
+            style: TextStyle(fontSize: 24, color: Colors.pinkAccent),
+          ),
+        ),
+      ),
     );
   }
 }
