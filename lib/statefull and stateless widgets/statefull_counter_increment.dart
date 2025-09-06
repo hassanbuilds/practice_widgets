@@ -5,7 +5,7 @@
 // - Use setState to update UI
 // - Display counter in the center
 
-/*import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(const CounterIncrement());
@@ -43,4 +43,4 @@ class _CounterIncrementState extends State<CounterIncrement> {
       ),
     );
   }
-}*/
+}
