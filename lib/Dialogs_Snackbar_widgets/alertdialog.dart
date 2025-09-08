@@ -6,7 +6,6 @@
 // - After closing the dialog, return back to the main screen
 
 import 'package:flutter/material.dart';
-import 'package:practice_widgets/Input%20and%20interaction%20widgets/main.dart';
 
 void main() {
   runApp(const MyApp());
