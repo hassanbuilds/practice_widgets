@@ -1,5 +1,4 @@
 // Q3: Hero Animation Example
-// Name: hero_example.dart
 // Requirements:
 // - Create two screens: HomeScreen and DetailScreen
 // - On HomeScreen, display an Image inside a Hero widget with tag "profilePic"
@@ -8,7 +7,7 @@
 // - Observe smooth transition animation between screens
 
 // File: hero_example.dart
-// File: hero_example.dart
+
 import 'package:flutter/material.dart';
 
 void main() {

@@ -1,5 +1,4 @@
 // Q2: AnimatedOpacity Example
-// Name: animated_opacity_example.dart
 // Requirements:
 // - Create a StatefulWidget
 // - Show a Container with text inside
