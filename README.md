@@ -57,5 +57,5 @@ It can serve as:
 
 <hr/>
 
-<h3 align="center">⭐ If you find this useful, don't forget to star the repo!</h3>
+<h3 align="center">⭐ If you find this useful, don't forget to star the repo</h3>
 
