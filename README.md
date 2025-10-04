@@ -7,7 +7,7 @@
 
 <hr/>
 
-<h2>📂 Repository Structure</h2>
+<h2>📂 Repo Structure</h2>
 <ul>
   <li><b>Basic Structure Widgets</b> – Container, Row, Column, etc.</li>
   <li><b>Stateless & Stateful Widgets</b> – lifecycle, reusability, differences.</li>
