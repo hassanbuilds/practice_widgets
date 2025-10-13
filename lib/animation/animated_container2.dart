@@ -72,9 +72,9 @@ class _AnimatedBoxState extends State<AnimatedBox> {
                       borderRadius: BorderRadius.circular(125),
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.orange.withOpacity(0.5),
-                          blurRadius: 15,
-                          offset: const Offset(0, 8),
+                          color: Colors.orange,
+                          blurRadius: 0,
+                          offset: const Offset(0, 0),
                         ),
                       ],
                     );
