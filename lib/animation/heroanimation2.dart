@@ -182,7 +182,7 @@ class _PhotoDetailScreenState extends State<PhotoDetailScreen>
                     'Experience the calm beauty of nature with this smooth hero animation. '
                     'Notice how the image transitions seamlessly and the description fades in elegantly.',
                     style: TextStyle(
-                      color: Colors.white.withOpacity(0.8),
+                      color: Colors.white,
                       fontSize: 16,
                       height: 1.4,
                     ),
